@@ -1,0 +1,253 @@
+/* baslık kodları baslangıc */
+.baslikpy{
+  position: relative;
+  top: 350px;
+  left: 0%;
+  animation: baslikpyy 2s ease-in-out;
+ font-size: 3em;
+}
+
+@keyframes baslikpyy {
+  from{
+    opacity: 0.0;
+    top: 250px;
+  }
+
+  to{
+    opacity: 0px;
+    top: 350px;
+
+  }
+}
+/* baslık kodları bitis */
+
+/* baslığo altında ki özet baslangıc */
+
+.headerintext{
+  position: relative;
+  top: 400px;
+  font-size: 1.1em;
+  animation: summary 2s ease-in-out;
+}
+
+@keyframes summary{
+  from{
+    opacity: 0.0;
+    top: 450px;
+  }
+  to{
+    opacity:1;
+    top: 400px;
+  }
+}
+/* baslığo altında ki özet bitis */
+
+
+/* görsel kısmı baslangıc */
+.gorsel1{
+  position: relative;
+  top: 600px; 
+}
+
+/* görsel kısmı bitiş */
+
+
+/* listelerin olduğu ayrıntılı açıklama bulunduğu kısım başlangıc */
+
+.listgenel{
+  
+  position: relative;
+  top: 750px;   
+}
+
+.listeinpython{
+  position: relative;
+  top: 100px;
+  list-style-type: none;
+  text-align: center;
+  font-size: 2em;
+  padding: 100px 100px;
+  background-color: rgb(238, 238, 238);
+  letter-spacing: 2px;
+
+}
+/* .listeanimation{
+  animation: liste_Animation 5s ease-in-out 1s ;
+} */
+
+.listeinpython:hover{
+  background-color:  rgb(146, 154, 171);
+  box-shadow: rgb(57, 62, 70);
+}
+
+/* #grow{
+  animation: listeanimation 2s ease-in-out 3s ;
+} */
+#grow:hover{
+  /* font-size: 1.2em; */
+  font-weight: 200;
+  font-size: 1.1em;
+  transition: all ease-in .3s;
+}
+
+#grow {
+  transition: all ease-in .3s;
+}
+
+@keyframes listeanimation {
+  from{
+    position: relative;
+    left: 250px;
+  }
+  to{
+    position: relative;
+    left: 1px;
+  }
+}
+
+
+/* liste yazı animasyonu kısmı başlangıc */
+
+/* liste 1 baslangıc */
+
+.liste1{
+  animation: listeanimation 2s ease-in-out 1.5s ;
+}
+
+@keyframes listeanimation {
+  from{
+    position: relative;
+    left: 250px;
+    opacity: 0;
+  }
+  to{
+    position: relative;
+    left: 0px;
+    opacity: 1;
+  }
+}
+
+/* liste 1 bitiş */
+
+/* liste 2 baslangıc */
+.liste2{
+  animation: listeanimation2 2.2s ease-in-out 1.5s ;
+}
+
+@keyframes listeanimation2 {
+  from{
+    position: relative;
+    left: 250px;
+    opacity: 0;
+  }
+  to{
+    position: relative;
+    left: 0px;
+    opacity: 1;
+  }
+}
+/* liste 2 bitiş */
+
+/* liste 3 baslangıc */
+.liste3{
+  animation: listeanimation3 2.4s ease-in-out 1.5s ;
+}
+
+@keyframes listeanimation3 {
+  from{
+    position: relative;
+    left: 250px;
+    opacity: 0;
+  }
+  to{
+    position: relative;
+    left: 0px;
+    opacity: 1;
+  }
+}
+/* liste 3 bitiş */
+
+/* liste 4 baslangıc */
+.liste4{
+  animation: listeanimation4 2.6s ease-in-out 1.5s ;
+}
+
+@keyframes listeanimation4 {
+  from{
+    position: relative;
+    left: 250px;
+    opacity: 0;
+  }
+  to{
+    position: relative;
+    left: 0px;
+    opacity: 1;
+  }
+}
+/* liste 4 bitiş */
+
+/* liste 5 baslangıc */
+.liste5{
+  animation: listeanimation5 2.8s ease-in-out 1.5s ;
+}
+
+@keyframes listeanimation5 {
+  from{
+    position: relative;
+    left: 250px;
+    opacity: 0;
+  }
+  to{
+    position: relative;
+    left: 0px;
+    opacity: 1;
+  }
+}
+/* liste 5 bitiş */
+
+/* liste yazı animasyonu kısmı bitis */
+
+ .social_Media{
+  position: relative;
+  top: 900px;
+ text-align: center;
+ padding:20px;
+  background-color: rgb(238, 238, 238);
+} 
+
+ .social_Link{
+  padding-left: 40px;
+  
+} 
+
+.Darkinlost{
+  text-align: right;
+  position: absolute;
+  bottom:20px;
+  left: 75%;
+  
+}
+
+@media screen and (max-width:1500px) {
+  .Darkinlost{
+   font-size: 1.4em;
+
+  }
+}
+
+@media screen and (max-width:800px) {
+  .Darkinlost{
+    position: relative;
+    left: -25%;
+    top: 20px;
+
+  }
+}
+
+
+
+/* ortada click for social media butonu olacak bu butona tıklayınca sosyal medya iconları çıkacak 
+sorna da öyle iste halledersin sen */
+
+
+/* listelerin olduğu ayrıntılı açıklama bulunduğu kısım bitiş */
